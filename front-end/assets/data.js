@@ -36,11 +36,13 @@ function repeatProduct(num) {
     for (let i=0; i < num; i++) {
         arr.push(
             {
+                id: i,
                 name: "Pepsi",
                 price: 20,
-                categoryId: 7,
-                image: "https://toppng.com/uploads/preview/transparent-soda-can-11563627768bfzqehmids.png"
+                categoryId: Math.floor((Math.random() * 7) + 1),
+                image: "/_nuxt/assets/images/bottle.jpg"
             }
         )
     }
+    return arr
 }
