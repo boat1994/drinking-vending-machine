@@ -17,7 +17,7 @@
 </template>
 
 <script>
-import { mapMutations } from "vuex";
+
 export default {
   computed: {
     filters() {
@@ -37,33 +37,32 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .container {
-    padding: 2rem;
-  }
+.container {
+  padding: 2rem;
+}
 
-  .logo {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 4vw;
-    margin-left: 2vw;
-    color: #dadada;
-    &__last {
-      color: #6200ee;
-    }
-  }
-
-  .filter-button {
+.logo {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4vw;
+  margin-left: 2vw;
+  color: #dadada;
+  &__last {
     color: #6200ee;
-    width: 9vw;
-    height: 50px;
-    border: 1px solid #dadada;
-    font-size: 1rem;
-    &--active {
-      @extend .filter-button;
-      background-color: #6200ee;
-      color: #ffff;
-    }
   }
+}
 
+.filter-button {
+  color: #6200ee;
+  width: 9vw;
+  height: 50px;
+  border: 1px solid #dadada;
+  font-size: 1rem;
+  &--active {
+    @extend .filter-button;
+    background-color: #6200ee;
+    color: #ffff;
+  }
+}
 </style>
