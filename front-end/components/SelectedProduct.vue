@@ -4,7 +4,7 @@
           <div class="md-layout-item">
               <product :product="selectedProduct" class="selected-product" />
           </div>
-          <div class="md-layout-item">
+          <div class="md-layout-item rigth">
             <div>
                 <md-button class="button--buy" @click="buy"> Buy</md-button>
             </div>
@@ -50,7 +50,9 @@ export default {
         width: 330px;
         height: 330px;
     }
-
+.rigth {
+    margin-top: 150px;
+}
     .button {
         color: #6200ee;
         width: 9vw;
