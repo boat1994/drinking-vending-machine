@@ -50,9 +50,9 @@ export default {
         width: 330px;
         height: 330px;
     }
-.rigth {
-    margin-top: 150px;
-}
+    .rigth {
+        margin-top: 150px;
+    }
     .button {
         color: #6200ee;
         width: 9vw;
